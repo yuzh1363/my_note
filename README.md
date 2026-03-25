@@ -1,5 +1,32 @@
-# Vue 3 + Vite
+# 我的筆記應用
+這是一個基於 Vue 3 開發的輕量級筆記管理系統。
+本專案作為 Vue 課程的實作練習，重點在於實作完整的 CRUD（增刪改查）功能、狀態管理及前端路由配置。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 📌 專案背景
+本專案為學習 Vue 3 的練習作品，旨在透過實作筆記應用來掌握：
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Composition API 的邏輯封裝。
+
+Pinia 全域狀態管理，處理筆記資料的跨組件共享。
+
+Vue Router 頁面切換與動態路徑對接。
+
+Vite 的開發環境配置與 GitHub Pages 的自動化部署。
+
+## 🚀 核心功能
+📝 筆記管理：支援新增、編輯與刪除筆記，並能即時預覽內容。
+
+🔍 筆記搜尋：透過關鍵字過濾筆記標題與內容，快速定位目標。
+
+📁 資料持久化：使用 Pinia 管理全域筆記資料，確保組件間狀態同步。
+
+## 🛠️ 使用技術
+框架：Vue 3 (Composition API)
+
+狀態管理：Pinia
+
+路由管理：Vue Router 4
+
+建構工具：Vite
+
+部署平台：GitHub Pages
