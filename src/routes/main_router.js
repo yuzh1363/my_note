@@ -35,7 +35,7 @@ const routes = [
 // 3. 建立路由實例
 const router = createRouter({
   // 使用 HTML5 History 模式，URL 不會有 # 號
-  history: createWebHistory('/my_note/'),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 });
 
